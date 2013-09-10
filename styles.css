@@ -1,0 +1,110 @@
+div{
+	text-align: center;	
+	//background-color:#33FF99;
+}
+#bandeau{
+	height:145px;
+	padding:10px;
+	width:2000px;
+	// background-color:#00CCFF;
+}
+#menu{
+	float:left;
+	width:150px;
+	height:450px;
+	padding:10px;
+	//background-color:#FF6699;
+	text-align: center;	
+	border-left:1px solid #000000; /* couleur du cadre */
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+}
+#erreur{
+	//height:40px;
+	text-align: left;
+	background-color:lightpink;
+	border-left:1px solid; /* couleur du cadre */
+	border-right:1px solid;
+	border-bottom:1px solid;
+	border-top:1px solid;
+}
+#erreur2{
+  border: none;
+	padding: 0.6em;
+	background-color: white;
+	border-left :  groove 0.8em #980101;
+  margin-top : 0.4em;
+  margin-bottom : 0.2 em;
+	margin-left: 18%;
+/* permet de fixer une hauteur mini sur les navigateurs modernes */
+  min-height:1 em;
+/* pour obtenir le même effet sur IE, sachant que si le contenu dépasse, il
+"poussera" la hauteur en ne respectant pas la norme. On se joue de ses lacunes
+*/
+  height:1 em;
+}
+/*  Le texte des messages d'erreur est de couleur rose sur fond ocre et de 
+taille de caractères légèrement supérieure à la normale */
+.erreur{ 
+   //background-color:rgb(237,210,229);
+   //color:rgb(203,28,128);
+   font-size:1.1em;
+   width:95%;
+}
+
+#message{
+	height:40px;
+	text-align: left;
+	background-color:lightpink;
+	border-left:1px solid; /* couleur du cadre */
+	border-right:1px solid;
+	border-bottom:1px solid;
+	border-top:1px solid;
+}
+#contenu{
+	height:450px;
+  margin:auto;
+	padding:10px;
+	overflow:auto;
+	// background-color:#FFFF00;
+	border-left:1px solid #000000; /* couleur du cadre */
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+}
+#pied_page{
+	height:50px;
+	padding:10px;
+	//background-color:#33FF99;
+}
+table{
+ border-width:1px; 
+ border-style:solid; 
+ border-color:black;
+ width:50%;
+}
+form{
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:50px;
+  text-align: left;	
+  padding:10px;
+  width:350px;
+}
+fieldset{
+  padding:20px;
+  margin-bottom:10px;
+}
+legend{
+  color:#a0522d;
+  font-weight:bold
+}
+label{
+  display: block;
+  width: 140px;
+  float: left;
+}
+
+
+
